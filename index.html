@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="in">
+            <input type="text" id="display" disabled>
+        </div>
+        <div class="table">
+            <button  onclick="ToDisplay('1')">1</button>
+            <button class="two" onclick="ToDisplay('2')">2</button>
+            <button class="tre" onclick="ToDisplay('3')">3</button>
+            <button class="c" onclick="ToDisplay('+')">+</button>
+            <button onclick="ToDisplay('4')">4</button>
+            <button onclick="ToDisplay('5')">5</button>
+            <button onclick="ToDisplay('6')">6</button>
+            <button class="c" onclick="ToDisplay('-')">-</button>
+            <button onclick="ToDisplay('7')">7</button>
+            <button onclick="ToDisplay('8')">8</button>
+            <button onclick="ToDisplay('9')">9</button>
+            <button class="c"onclick="ToDisplay('*')">X</button>
+            <button class="one" onclick="ToDisplay('0')">0</button>
+            <button onclick="clearDisplay()">C</button>
+            <button class="equ" onclick="calculate()">=</button>
+            <button class="c d"onclick="ToDisplay('/')">/</button>
+            
+            
+            
+        </div>
+    </div>
+</body>
+    <script src="script.js"></script>
+</html>
